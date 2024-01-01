@@ -1,8 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer components {
 }
+
+body {
+  @apply bg-gray-200;
+}
+
 .links:hover div {
   @apply w-full;
 }
