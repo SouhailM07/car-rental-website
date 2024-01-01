@@ -31,12 +31,12 @@ export default function Services() {
           title="BEST SERVICES"
           txt="Explore Out Top DEals From Top Rated Dealers"
         />
-        <ul className="flex flex-wrap ">
+        <ul className="flex flex-wrap justify-around">
           {arrOfCars.map((e, i) => {
             return (
               <Card
                 key={i}
-                className="w-[25rem] px-[1rem] py-[1rem] mb-[2rem] mx-[1rem]"
+                className="w-[25rem] px-[1rem] py-[1rem] mb-[2rem]"
                 component="li"
               >
                 <CardMedia
