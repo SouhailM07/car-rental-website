@@ -3,3 +3,6 @@
 @tailwind utilities;
 @layer components {
 }
+.links:hover div {
+  @apply w-full;
+}
