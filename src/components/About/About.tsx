@@ -13,7 +13,7 @@ import jeep_img from "/about.png";
 export default function About() {
   return (
     <>
-      <Card className="!bg-transparent !flex !shadow-none">
+      <Card id="About" className="!bg-transparent !flex !shadow-none">
         <CardMedia image={jeep_img} component="img" className="h-[25rem]" />
         <div className="flex flex-col justify-between pl-[5rem] ">
           <CardHeader title="ABOUT US" className="text-orange-500" />

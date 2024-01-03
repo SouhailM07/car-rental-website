@@ -29,7 +29,7 @@ export default function Services() {
   ];
   return (
     <>
-      <article>
+      <article id="Services">
         <Title
           title="BEST SERVICES"
           txt="Explore Out Top DEals From Top Rated Dealers"

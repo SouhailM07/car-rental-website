@@ -24,7 +24,7 @@ export default function Reviews() {
   let arrOfCards = [img_1, img_2, img_3];
   return (
     <>
-      <article>
+      <article id="Reviews">
         <Title title="REVIEWS" txt="Whats Our Customer Say" />
         <ul className="flex flex-wrap justify-between">
           {arrOfCards.map((e, i) => {

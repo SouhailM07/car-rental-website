@@ -21,7 +21,7 @@ export default function Navbar() {
                   key={i}
                   className="links text-center cursor-pointer w-[6rem]"
                 >
-                  <p>{e}</p>
+                  <a href={"#" + e}>{e}</a>
                   <div className="h-0.5 w-0 rounded-xl translate-y-1 bg-orange-500"></div>
                 </li>
               );

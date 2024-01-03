@@ -1,5 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer components {
+  #Footer_s1 {
+    @apply from-orange-600 to-orange-300 flex justify-center items-center flex-col;
+    @apply space-y-[2rem] h-[20rem];
+    @apply bg-gradient-to-r;
+  }
+  #Footer_s1 h2 {
+    @apply font-bold;
+    @apply text-[2.7rem];
+    @apply text-white;
+  }
+  #Footer_s1 div {
+    @apply flex font-medium rounded-lg;
+    @apply py-[0.6rem] px-[1rem];
+    @apply bg-white;
+  }
+  #Footer_s1 input {
+    @apply outline-none text-[1.2rem] min-w-[20rem];
+  }
+  #Footer_s1 button {
+    @apply rounded-lg;
+    @apply text-[1.3rem] py-[1rem] px-[2rem];
+    @apply hover:bg-blue-600 bg-blue-500 text-white;
+  }
+  /*  */
+  #Footer_s2 {
+    @apply flex justify-between;
+    @apply p-[3rem];
+  }
+  #Footer_s2 p {
+    @apply font-medium text-[1.3rem];
+  }
 }

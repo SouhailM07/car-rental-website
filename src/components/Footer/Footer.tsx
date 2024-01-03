@@ -11,23 +11,16 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <div className="bg-gradient-to-r space-y-[2rem] from-orange-600 to-orange-400 flex justify-center items-center h-[20rem] flex-col">
-          <h2 className="text-[2.7rem] font-bold text-white">
-            Subscribe To NewsLetter
-          </h2>
-          <div className="flex bg-white py-[0.6rem] font-medium rounded-lg px-[1rem]">
-            <input
-              type="text"
-              placeholder="email@example.com"
-              className=" outline-none text-[1.2rem] min-w-[20rem]"
-            />
-            <button className="hover:bg-blue-600 bg-blue-500 text-white text-[1.3rem] py-[1rem] rounded-lg px-[2rem]">
-              Subscribe
-            </button>
+        <div id="Footer_s1">
+          <h2>Subscribe To NewsLetter</h2>
+          <div>
+            <input type="text" placeholder="email@example.com" />
+            <button>Subscribe</button>
           </div>
         </div>
-        <div className="flex justify-between p-[3rem]">
-          <p className="font-medium text-[1.3rem]">All Right reserved.</p>
+        {/*  */}
+        <div id="Footer_s2">
+          <p>All Right reserved.</p>
           <Stack component="ul" direction="row" spacing="1.5rem">
             {arrOfLinks.map((e, i) => {
               return (

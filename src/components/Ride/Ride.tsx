@@ -33,7 +33,7 @@ export default function Ride() {
   ];
   return (
     <>
-      <article>
+      <article id="Ride">
         <Title title="HOW ITS WORK" txt="Rent With 3 Easy Steps" />
         <ul className="flex justify-between">
           {arrOfCards.map((e, i) => {
