@@ -2,7 +2,7 @@ import "./mycontainer.css";
 // mui
 import { Container } from "@mui/material";
 // components
-import { Navbar, Ride, Services, Reviews } from "../../components";
+import { Navbar, Ride, Services, Reviews, Footer } from "../../components";
 
 export default function MyContainer() {
   return (
@@ -13,6 +13,7 @@ export default function MyContainer() {
         <Services />
         <Reviews />
       </Container>
+      <Footer />
     </>
   );
 }
