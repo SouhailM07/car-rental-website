@@ -2,7 +2,14 @@ import "./mycontainer.css";
 // mui
 import { Container } from "@mui/material";
 // components
-import { Navbar, Ride, Services, Reviews, Footer } from "../../components";
+import {
+  Navbar,
+  Ride,
+  Services,
+  About,
+  Reviews,
+  Footer,
+} from "../../components";
 
 export default function MyContainer() {
   return (
@@ -11,6 +18,7 @@ export default function MyContainer() {
       <Container>
         <Ride />
         <Services />
+        <About />
         <Reviews />
       </Container>
       <Footer />
