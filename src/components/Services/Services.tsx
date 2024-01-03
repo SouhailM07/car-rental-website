@@ -16,6 +16,8 @@ import car_2 from "/harrison-fitts-zE2VGbJSYns-unsplash.jpg";
 import car_3 from "/jannis-lucas-5B0EXiwdJrg-unsplash.jpg";
 import car_4 from "/jonathan-cooper-YuUjJUBk6pY-unsplash.jpg";
 import car_5 from "/kenny-eliason-yDekvyZ52dU-unsplash.jpg";
+import car_6 from "/blake-meyer-CRNbHjNaljo-unsplash.jpg";
+
 export default function Services() {
   let arrOfCars = [
     { img: car_1, title: "Bentley" },
@@ -23,6 +25,7 @@ export default function Services() {
     { img: car_3, title: "Range Rover" },
     { img: car_4, title: "Porsche 911" },
     { img: car_5, title: "Jeep " },
+    { img: car_6, title: "Audi R8 " },
   ];
   return (
     <>
