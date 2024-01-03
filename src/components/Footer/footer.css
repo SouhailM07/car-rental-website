@@ -10,20 +10,21 @@
   }
   #Footer_s1 h2 {
     @apply font-bold;
-    @apply text-[2.7rem];
+    @apply md:text-[2.7rem] text-[2rem];
     @apply text-white;
   }
   #Footer_s1 div {
     @apply flex font-medium rounded-lg;
-    @apply py-[0.6rem] px-[1rem];
+    @apply py-[0.6rem] px-[1rem] md:w-[32rem] w-[85%];
     @apply bg-white;
   }
   #Footer_s1 input {
-    @apply outline-none text-[1.2rem] min-w-[20rem];
+    @apply outline-none md:text-[1.2rem];
+    @apply w-full;
   }
   #Footer_s1 button {
     @apply rounded-lg;
-    @apply text-[1.3rem] py-[1rem] px-[2rem];
+    @apply text-[1.3rem] py-[1rem] md:px-[2rem] px-[1rem];
     @apply hover:bg-blue-600 bg-blue-500 text-white;
   }
   /*  */
@@ -32,6 +33,6 @@
     @apply p-[3rem];
   }
   #Footer_s2 p {
-    @apply font-medium text-[1.3rem];
+    @apply font-medium md:text-[1.3rem];
   }
 }
