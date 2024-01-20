@@ -7,8 +7,19 @@ import { Title } from "../../components";
 import img_1 from "/location-dot-solid.svg";
 import img_2 from "/calendar-check-solid.svg";
 import img_3 from "/calendar-week-solid.svg";
+//
+import { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 
 export default function Ride() {
+  useEffect(() => {
+    // Initialize ScrollReveal
+    const sr = ScrollReveal({
+      // options
+      delay: 400,
+    });
+    sr.reveal("article[id]");
+  }, []);
   interface arrOfCards_type {
     img: string;
     title: string;
@@ -33,15 +44,15 @@ export default function Ride() {
   ];
   return (
     <>
-      <article id="Ride">
+      <article id="Ride" className="headline">
         <Title title="HOW ITS WORK" txt="Rent With 3 Easy Steps" />
-        <ul className="flex justify-between">
+        <ul className="CardContainer">
           {arrOfCards.map((e, i) => {
             return (
               <Card
                 component="li"
                 key={i}
-                className="w-[25rem] text-center pt-[1rem] !shadow-none"
+                className="Card w-[25rem] text-center pt-[1rem] !shadow-none"
               >
                 <div className="bg-gray-300 rounded-lg w-[3rem] m-auto h-[3rem] grid place-items-center">
                   <CardMedia

@@ -15,14 +15,14 @@ import {
 export default function MyContainer() {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Container className="space-y-[15rem] mb-[10rem]"> */}
-      {/* <Home /> */}
-      {/* <Ride />/ */}
-      {/* <Services /> */}
-      {/* <About /> */}
-      {/* <Reviews /> */}
-      {/* </Container> */}
+      <Navbar />
+      <Container className="space-y-[15rem] mb-[10rem]">
+        <Home />
+        <Ride />
+        <Services />
+        <About />
+        <Reviews />
+      </Container>
       <Footer />
     </>
   );

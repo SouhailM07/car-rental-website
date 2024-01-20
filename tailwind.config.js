@@ -4,6 +4,7 @@
     extend: {},
     screens: {
       xs: "0px",
+      w430: "430px",
       md: "768px",
       lg: "1024px",
     },

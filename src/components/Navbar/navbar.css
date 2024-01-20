@@ -11,4 +11,5 @@ body {
 
 .links:hover div {
   @apply w-full;
+  transition: 0.3s;
 }

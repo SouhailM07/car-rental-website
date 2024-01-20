@@ -26,17 +26,11 @@ export default function Reviews() {
     <>
       <article id="Reviews">
         <Title title="REVIEWS" txt="Whats Our Customer Say" />
-        <ul className="flex flex-wrap justify-between">
+        <ul className="CardContainer">
           {arrOfCards.map((e, i) => {
             return (
-              <Card
-                key={i}
-                className="w-[27rem] text-center px-[2rem] !shadow-none pt-[2rem]"
-              >
-                <Avatar
-                  src={e}
-                  className="!h-[5rem] !w-[5rem] m-auto border-2 border-yellow-500"
-                />
+              <Card key={i} className="Card ">
+                <Avatar src={e} className="Avatar " />
                 <div>
                   <CardHeader
                     title={<p className="font-bold">Someone Name</p>}

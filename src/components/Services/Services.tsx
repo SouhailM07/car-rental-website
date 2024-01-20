@@ -8,6 +8,7 @@ import {
   CardContent,
   Button,
 } from "@mui/material";
+import { styled } from "@mui/material/styles";
 // components
 import { Title } from "../../components";
 // assets
@@ -34,18 +35,18 @@ export default function Services() {
           title="BEST SERVICES"
           txt="Explore Out Top DEals From Top Rated Dealers"
         />
-        <ul className="flex flex-wrap justify-around">
+        <ul className="CardContainer">
           {arrOfCars.map((e, i) => {
             return (
               <Card
                 key={i}
-                className="w-[25rem] px-[1rem] py-[1rem] mb-[2rem]"
+                className="Card w-[25rem] px-[1rem] py-[1rem] mb-[2rem] "
                 component="li"
               >
                 <CardMedia
                   component="div"
                   image={e.img}
-                  className="h-[15rem] rounded-xl hover:scale-110"
+                  className="h-[15rem] rounded-xl "
                 />
                 <CardHeader
                   title={
@@ -64,7 +65,14 @@ export default function Services() {
                   </div>
                 </CardContent>
                 <CardActions>
-                  <Button className="w-full !text-[1.2rem] !py-[0.8rem] !text-white !bg-blue-500">
+                  <Button
+                    sx={{
+                      fontSize: "1.2rem",
+                      py: "0.8rem",
+                      color: "white",
+                    }}
+                    className="w-full   !bg-blue-500"
+                  >
                     Rent Now
                   </Button>
                 </CardActions>
