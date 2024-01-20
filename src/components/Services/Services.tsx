@@ -8,7 +8,6 @@ import {
   CardContent,
   Button,
 } from "@mui/material";
-import { styled } from "@mui/material/styles";
 // components
 import { Title } from "../../components";
 // assets
